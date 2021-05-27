@@ -1,0 +1,82 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('./images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.heading{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: auto;
+    height: 40px;
+}
+
+.content{
+    text-align: center;
+    margin-top: 120px;
+    padding: 30px;
+}
+
+.content2{
+    margin-top: 20px;
+}
+
+.increment{
+    background-color: rgb(85, 219, 85);
+    height: 50px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    transition: .5s all;
+}
+
+.increment:hover{
+    box-shadow: 1px 2px 5px rgb(167, 167, 167);
+    background-color: rgb(73, 192, 73);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+
+.decrement{
+    background-color: rgb(255, 88, 88);
+    margin-left: 10px;
+    height: 50px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    transition: .5s all;
+}
+
+.decrement:hover{
+    box-shadow: 1px 2px 5px rgb(167, 167, 167);
+    background-color: rgb(255, 0, 0);
+    color: white;
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+
+.reset{
+    background-color: rgb(68, 68, 68);
+    margin-left: 10px;
+    height: 50px;
+    font-size: 16px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    transition: .5s all;
+}
+
+.reset:hover{
+    box-shadow: 1px 2px 5px rgb(167, 167, 167);
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+    transform: translateY(-5px);
+}
