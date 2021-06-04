@@ -1,2 +1,3 @@
 A simple counter app made using reactJS for practice purpose.
-https://raw.githubusercontent.com/hammadali2000/CountApp---ReactJs/master/img.PNG
+![img](https://user-images.githubusercontent.com/63351184/120737539-b0684b00-c507-11eb-8671-3eaa876f9193.PNG)
+
